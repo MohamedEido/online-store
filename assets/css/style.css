@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tajawal', sans-serif;
+}
+
+body.m {
+  --color: #0a84ff;
+}
+
+body.w {
+  --color: #e83e8c;
+}
+
+.container {
+  position: relative;
+  direction: rtl;
+  min-height: 100vh;
+}
+
+.container header {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  padding: 0px 50px;
+  display: flex;
+  align-items: center;
+  background-color: var(--color);
+}
+
+.container header .logo h4 {
+  color: #fff;
+  font-size: 28px;
+  user-select: none;
+}
+
+.container header .nav-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container header .nav-links li {
+  list-style: none;
+  padding: 0 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container header .nav-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container .a {
+ font-size: 40px;
+ color: var(--color);
+ line-height: 0;
+ margin: 40px 50px;
+ margin-bottom: 25px;
+ font-weight: normal;
+}
+
+.container .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+
+.container .content .item {
+  position: relative;
+  width: 250px;
+  padding: 10px;
+  margin: 25px 0;
+  background-color: #fff;
+  border: 1px solid #141418;
+  border-radius: 3px;
+}
+
+.container .content .item img {
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+  border: 1px solid #141418;
+  border-radius: 2px;
+}
+
+.container .content .item .item-info .item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #141418;
+}
+
+.container .content .item .item-info .item-header .header-title {
+  font-size: 18px;
+  color: #141418;
+}
+
+.container .content .item .item-info .item-header .classifi {
+  font-size: 18px;
+  color: var(--color);
+}
+
+.container .content .item .item-info .item-text {
+  padding-top: 15px;
+  color: #6c757d;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.container .content .item .item-info .item-text a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--color);
+  cursor: pointer;
+}
